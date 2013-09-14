@@ -4,6 +4,8 @@ class Task
   include Mongoid::Timestamps
 
   field :title, type: String
-  field :desc, type: String
+  field :content, type: String
+  
+  
 end
 
